@@ -1,4 +1,4 @@
-package net.original_gamers;
+package net.original_gamers.main;
 
 import org.bukkit.plugin.java.JavaPlugin;
 

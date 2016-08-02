@@ -1,4 +1,4 @@
-package net.original_gamers;
+package net.original_gamers.main;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -8,6 +8,8 @@ import java.util.UUID;
 
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitRunnable;
+
+import net.original_gamers.action.PlayerAction;
 
 public class PlayerDataManager extends BukkitRunnable {
   private Map<UUID, PlayerData > playerDataMap;

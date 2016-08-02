@@ -1,4 +1,4 @@
-package net.original_gamers;
+package net.original_gamers.main;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -13,6 +13,8 @@ import java.util.Set;
 import java.util.UUID;
 
 import org.bukkit.scheduler.BukkitRunnable;
+
+import net.original_gamers.action.PlayerAction;
 
 public class PlayerData {
   private final Set<String> ipHistory;

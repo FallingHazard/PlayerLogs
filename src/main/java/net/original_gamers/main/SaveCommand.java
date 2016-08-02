@@ -1,4 +1,4 @@
-package net.original_gamers;
+package net.original_gamers.main;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

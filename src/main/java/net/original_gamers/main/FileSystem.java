@@ -1,4 +1,4 @@
-package net.original_gamers;
+package net.original_gamers.main;
 
 import java.io.File;
 import java.io.IOException;
