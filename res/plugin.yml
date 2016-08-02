@@ -1,0 +1,6 @@
+name: OGLogs
+main: net.original_gamers.OGLogsPlugin
+version: 0.1.7
+commands:
+    logsave:
+
