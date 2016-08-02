@@ -81,11 +81,12 @@ public class PlayerData {
     }
   }
   
-  public Set<String> addNewIp(String newIp) {
-    if (ipHistory.add(newIp)) {
-      ipWriter.println(newIp);
-    }
-    return ipHistory;
+  public void addNewIp(String newIp) {
+    ipWriter.println(newIp);
+  }
+  
+  public boolean isNewIp(String someIp) {
+    return !ipHistory.contains(someIp);
   }
   
   public void addNewAction(PlayerAction newAction) {

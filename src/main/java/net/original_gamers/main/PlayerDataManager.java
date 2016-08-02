@@ -28,7 +28,11 @@ public class PlayerDataManager extends BukkitRunnable {
       joinerData = new PlayerData(joinerUID, plugin);
     }
     
-    joinerData.addNewIp(action.getPlayerIp());
+    String playerIp = action.getPlayerIp();
+    if (joinerData.isNewIp(playerIp)) {
+      joinerData.addNewIp(playerIp);
+    }
+    
     joinerData.addNewAction(action);
     playerDataMap.put(joinerUID, joinerData);
   }
